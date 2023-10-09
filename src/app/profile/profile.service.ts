@@ -214,7 +214,7 @@ export class ProfileService {
   Collaborative team player with expertise in complex workflow functionality and using Git, and Azure DevOps for version control`
 
   about = "Goal-oriented Mean Stack developer with almost 2 years of experience, seeking opportunities to apply expertise in building dynamic web applications. Committed to delivering efficient and innovative solutions using Angular and Java. Eager to contribute to a dynamic team and enhance skills in software development."
-  resumeurl = "https://drive.google.com/file/d/1s4TVk_hZfv4VZJWfyKOVjuVopkCwGxZt/view?usp=drive_link"
+  resumeurl = "https://drive.google.com/file/d/1OYjBdZOdvkurs4zlJo73dFK7jTY6rDz-/view?usp=drive_link"
 
   skillsData: any = [
     {
