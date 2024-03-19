@@ -214,34 +214,72 @@ export class ProfileService {
   Collaborative team player with expertise in complex workflow functionality and using Git, and Azure DevOps for version control`
 
   about = "Goal-oriented Mean Stack developer with almost 2 years of experience, seeking opportunities to apply expertise in building dynamic web applications. Committed to delivering efficient and innovative solutions using Angular and Java. Eager to contribute to a dynamic team and enhance skills in software development."
-  resumeurl = "https://drive.google.com/file/d/1snIWOyhemkWUtVNWFZTvFuHjL7VtPxb0/view?usp=drive_link"
+  resumeurl = "https://drive.google.com/file/d/1Qh18WUW88lUHrSdEFQ9hf9VpaTBn1TD5/view?usp=drive_link"
 
-  skillsData: any = [
+  // skillsData: any = [
+  //   {
+  //     'id': '1',
+  //     'skill': 'ANGULAR 2+',
+  //     'progress': '85%'
+  //   },
+  //   {
+  //     'id': '2',
+  //     'skill': 'NODE JS',
+  //     'progress': '80%'
+  //   },
+  //   {
+  //     'id': '3',
+  //     'skill': 'JAVASCRIPT',
+  //     'progress': '80%'
+  //   },
+  //   {
+  //     'id': '4',
+  //     'skill': 'SQL , MYSQL , MONOGO , PL/SQL',
+  //     'progress': '75%'
+  //   },
+  //   {
+  //     'id': '5',
+  //     'skill': 'JAVA',
+  //     'progress': '75%'
+  //   },
+  // ];
+
+  skillsData: any=[
     {
       'id': '1',
-      'skill': 'ANGULAR 2+',
-      'progress': '85%'
+      'skill': 'Languages:',		
+      'skill1': 'Java8, SQL, PL/SQL, JavaScript',
     },
     {
       'id': '2',
-      'skill': 'NODE JS',
-      'progress': '80%'
+      'skill': 'Web Technologies & Server:',
+      'skill1': 'Html5, TypeScript, Css, Angular 8,node.js,Express.js',
     },
     {
       'id': '3',
-      'skill': 'JAVASCRIPT',
-      'progress': '80%'
+      'skill': 'Back-end:',
+      'skill1':	'RestfulAPI',
     },
     {
       'id': '4',
-      'skill': 'SQL , MYSQL , MONOGO , PL/SQL',
-      'progress': '75%'
+      'skill': 'Database Management:',
+      'skill1': 'MySql, mongoDB',
     },
     {
       'id': '5',
-      'skill': 'JAVA',
-      'progress': '75%'
+      'skill': 'Methodologies:',
+      'skill1':	'Agile Methodology, Waterfall methodology Tools,',
     },
+    {
+      'id': '6',
+      'skill': 'Technologies & Server:',
+      'skill1':	'GIT, Azure Devops',
+    }, 
+    {
+      'id': '7',
+      'skill': 'IDEs & Platform:',			
+      'skill1': 'Visual Studio Code, Eclipse, Windows',
+    },   
   ];
 
 
@@ -296,7 +334,7 @@ Completed my Secondary school with 82%.`
       company: 'PwC',
       location: 'Kolkata',
       timeline: 'November 2021 to May 2023',
-      role: 'Associate',
+      role: 'Associate- Technology Consultant',
       work: `Worked for different state level electricity projects for scheduling, Accounting, Metering, and settlement of transaction in electricity .
       Processing of collected real time data, Worked on validation of data for further calculation of bills with respect to the regulation provided by client .
       Involved in development of jsp and angular framework based application following waterfall model .
@@ -314,7 +352,7 @@ Completed my Secondary school with 82%.`
       company: 'Jio Platforms Limited',
       location: 'Mumbai',
       timeline: 'June 2021 to November 2022',
-      role: 'Software Developer',
+      role: 'Dy. Manager- Software Engineer',
       work: `Worked for internal projects for jio facilities application, FTTX portal, Change order management system, and Report module application . 
       Developed multiple features and also actively participated in the resolution of production bugs . 
       Acted on complex workflow functionality and also performed CRUD operations . 
@@ -401,7 +439,7 @@ Completed my Secondary school with 82%.`
       id: 2,
       company: 'Volt Technologies',
       location: 'Ranchi',
-      timeline: 'January 2021 to June 2021',
+      timeline: 'May 2018-August 2018',
       role: 'Live project and Training',
       work: `project title: Online Contractor's Registration (client:
         Jharkhand Government) worked on vb.net, html, c#, java script.
@@ -464,3 +502,6 @@ Completed my Secondary school with 82%.`
     return this.extraCircularInfo;
   }
 }
+
+
+
