@@ -208,7 +208,7 @@ export class ProfileService {
 
 
   ]
-  about2 = `Experienced Mean Stack, and Java developer with a strong track record in creating user-friendly web applications .
+  about2 = `Experienced Angular, and Java developer with a strong track record in creating user-friendly web applications .
   Worked with Software Development Life Cycle(SDLC) and  agile methodologies .
   Proficient in Java, Angular 2+,node.js, and database management (mongoDB, MySQL and Oracle) .
   Collaborative team player with expertise in complex workflow functionality and using Git, and Azure DevOps for version control`
